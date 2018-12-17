@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
+    "prestart": "next build",
     "build": "next build",
     "start": "next start -p %PORT%",
     "heroku-postbuild": "npm run build"
